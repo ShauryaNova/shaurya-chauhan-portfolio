@@ -14,7 +14,7 @@ export const NAV_LINKS: NavLink[] = [
 export const SKILL_GROUPS: SkillGroup[] = [
   {
     category: 'Core & Languages',
-    skills: ['Python', 'C/C++', 'Java', 'Kotlin', 'SQL'],
+    skills: ['Python', 'Java', 'JavaScript', 'SQL'],
   },
   {
     category: 'Data Science',
@@ -35,14 +35,14 @@ export const PROJECTS: Project[] = [
     id: 'yt-link-player',
     title: 'YouTube Link Player',
     tagline: 'A deliberate antidote to algorithmic distraction.',
-    description: 'Algorithms are designed to keep you clicking; I wanted a tool that lets you watch. This Android app strips away the feed, allowing users to play specific URLs and maintain a local, searchable history.',
+    description: 'Algorithms are designed to keep you clicking; I wanted a tool that lets you watch videos without being distracted. This Android app strips away the feed, allowing users to play specific URLs and maintain a local, searchable history.',
     features: [
       'Instant paste-and-play without the feed',
       'Local, private watch history',
       'Minimalist, distraction-free UI',
       'Lightweight architecture'
     ],
-    tech: ['Android (Kotlin)', 'YouTube Player API', 'Room Database', 'Material Design'],
+    tech: ['Android (Dart)', 'YouTube Player API', 'Room Database', 'Material Design'],
     learned: [
       'Integrating third-party media APIs into native views',
       'Designing local persistence for seamless user states',
@@ -52,8 +52,8 @@ export const PROJECTS: Project[] = [
   {
     id: 'goals-tracker',
     title: 'Personal Goals & Achievement Tracker',
-    tagline: 'An AI-assisted dashboard for holistic reflection.',
-    description: 'Tracking numbers is easy; tracking growth is hard. I built this AI Studio app to combine hard metrics (finance, goals) with soft data (mood, reflections). By structuring the inputs, I leverage LLMs to generate insights that actually feel personal.',
+    tagline: 'An interactive dashboard for holistic reflection.',
+    description: 'Tracking numbers is easy; tracking growth is hard. I built this AI Studio app to combine hard metrics (finance, goals) with soft data (mood, reflections). By structuring the inputs, I leverage LLMs to generate insights that actually feel personal. By helping users to track and reflect daily, the app fosters a growth mindset over time.',
     features: [
       'Holistic tracking: Finance, Goals, Mood',
       'Timestamped journals for reflective practice',
@@ -71,7 +71,7 @@ export const PROJECTS: Project[] = [
 ];
 
 export const EXPERIENCE: Experience = {
-  company: 'OmRex AI',
+  company: 'ONBV AI',
   role: 'Student Contributor',
   period: '2025 – Present',
   description: [
@@ -80,7 +80,7 @@ export const EXPERIENCE: Experience = {
     'AI-driven productivity concepts',
     'A place where ideas turn into prototypes'
   ],
-  summary: 'At OmRex AI, I’m not just writing code — I’m learning how products are shaped. It’s brainstorming features, testing quick prototypes, scrapping them, rebuilding them cleaner, and thinking like a user instead of a developer. This is where I’m building my startup muscle.'
+  summary: 'At ONBV AI, I’m not just writing code — I’m learning how products are shaped. It’s brainstorming features, testing quick prototypes, scrapping them, rebuilding them cleaner, and thinking like a user instead of a developer. This is where I’m building my startup muscle.'
 };
 
 export const EDUCATION: Education = {
