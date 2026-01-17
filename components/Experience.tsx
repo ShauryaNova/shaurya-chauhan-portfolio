@@ -13,7 +13,7 @@ const Experience: React.FC = () => {
             <h4 className="font-body text-xs font-semibold uppercase tracking-[0.2em] text-ivory-dim opacity-70">Chapter 04</h4>
          </div>
          <h2 className="font-heading text-4xl md:text-6xl font-bold text-ivory leading-tight tracking-tight">
-           OmRex AI — <br/> <span className="text-ivory-dim opacity-60">Early Stage Startup</span>
+           ONBV AI — <br/> <span className="text-ivory-dim opacity-60">Early Stage Startup</span>
          </h2>
       </div>
       
