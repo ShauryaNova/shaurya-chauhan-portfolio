@@ -96,7 +96,7 @@ const ProjectCard: React.FC<{ project: typeof PROJECTS[0], index: number }> = ({
                       {/* Screenshot Image with Error Handling */}
                       {!imgError ? (
                         <img 
-                          src="streamlink.jpg" 
+                          src="/streamlink.jpg" 
                           alt="StreamLink App Interface" 
                           className="w-full h-full object-cover rounded-[2rem]"
                           onError={() => {
@@ -128,7 +128,7 @@ const ProjectCard: React.FC<{ project: typeof PROJECTS[0], index: number }> = ({
                       <div className="flex-1 bg-cool-gray relative overflow-hidden">
                          {!imgError ? (
                             <img 
-                              src="goalstracker.png" 
+                               src="/goalstracker.png" 
                               alt="Goals Tracker Interface" 
                               className="w-full h-full object-cover"
                               onError={() => setImgError(true)}
